@@ -1,0 +1,16 @@
+Instead of keeping all the data inside the components, we use the single, global store which is our source of truth.
+When user makes an action - for example clicks a button on a page - an Action is dispatched.
+The action is then sent to the reducer: a function with a single purpose - it takes the old state of the application and the new action, and generates the new, updated state. For example if the user created new entity, the reducer might append this new item to the list of all entities.
+The new store is passed then to our components and they update accordingly.
+
+
+
+https://www.youtube.com/watch?v=1QI-UE3-0PU
+Basics of redux 7 minutes
+
+Redux Tutorial - Learn React/Redux in one video   31.53 mints
+
+React Redux Tutorial Basics How To   - Code Life youtube
+
+create-react-app counter-app
+yarn add redux react-redux
